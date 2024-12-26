@@ -1,0 +1,5 @@
+﻿#ifndef __HDR_STB_BUILDER_RES_ICON__
+#define __HDR_STB_BUILDER_RES_ICON__
+
+
+#endif // __HDR_STB_BUILDER_RES_ICON__

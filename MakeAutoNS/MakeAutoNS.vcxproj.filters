@@ -19,6 +19,12 @@
     <Filter Include="라이브러리\공통 라이브러리">
       <UniqueIdentifier>{07823de4-107f-4419-abb2-5fd0413a4be3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="라이브러리\고유 라이브러리">
+      <UniqueIdentifier>{aeb04bad-4ef8-459e-bb2e-5242961895f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="라이브러리\공통 라이브러리\win32">
+      <UniqueIdentifier>{e8270982-d2d4-4973-b92d-09a748e59f13}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MakeAutoNS.cpp">
@@ -39,11 +45,26 @@
     <ClCompile Include="..\CommonLibs\cmnPath.cpp">
       <Filter>라이브러리\공통 라이브러리</Filter>
     </ClCompile>
+    <ClCompile Include="..\UniqueLibs\stbFile_Builder.cpp">
+      <Filter>라이브러리\고유 라이브러리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UniqueLibs\stbFile_Builder_Res.cpp">
+      <Filter>라이브러리\고유 라이브러리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UniqueLibs\stbFile_Builder_Res_Icon.cpp">
+      <Filter>라이브러리\고유 라이브러리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UniqueLibs\stbFile_Builder_Res_Manifest.cpp">
+      <Filter>라이브러리\고유 라이브러리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UniqueLibs\stbFile_Builder_Res_Ver.cpp">
+      <Filter>라이브러리\고유 라이브러리</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonLibs\win32\W32API_PE.cpp">
+      <Filter>라이브러리\공통 라이브러리\win32</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\UniqueLibs\stbFile_Defs.hpp">
-      <Filter>라이브러리</Filter>
-    </ClInclude>
     <ClInclude Include="Builder.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
@@ -61,6 +82,27 @@
     </ClInclude>
     <ClInclude Include="..\CommonLibs\cmnPath.hpp">
       <Filter>라이브러리\공통 라이브러리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UniqueLibs\stbFile_Builder.hpp">
+      <Filter>라이브러리\고유 라이브러리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UniqueLibs\stbFile_Defs.hpp">
+      <Filter>라이브러리\고유 라이브러리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UniqueLibs\stbFile_Builder_Res.hpp">
+      <Filter>라이브러리\고유 라이브러리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UniqueLibs\stbFile_Builder_Res_Icon.hpp">
+      <Filter>라이브러리\고유 라이브러리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UniqueLibs\stbFile_Builder_Res_Manifest.hpp">
+      <Filter>라이브러리\고유 라이브러리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UniqueLibs\stbFile_Builder_Res_Ver.hpp">
+      <Filter>라이브러리\고유 라이브러리</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonLibs\win32\W32API_PE_Defs.hpp">
+      <Filter>라이브러리\공통 라이브러리\win32</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

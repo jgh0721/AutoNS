@@ -37,3 +37,12 @@ MakeAutoNS
 FileInstall 처리
 최종 생성된 스크립트를 이용하여 EXE 로 생성
 
+FileInstall( Src );
+
+Src 에는 전처리기 매크로를 활용가능하다. 
+Src 는 와일드 카드를 지원한다. 
+    전처리기 처리 후 생성 된 인자( D:\fdsfsd\qqq.abc, D:\*.pdf ) 를 해시 처리하여 TyFileEntry 에 식별자로서 넣는다. 
+
+'"'
+"'"
+' "fdsfds" '

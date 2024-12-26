@@ -7,21 +7,26 @@
 #include <string>
 #include <vector>
 
-int                         wcscmp( const WString& Lhs, const WString& Rhs );
-int                         wcsicmp( const WString& Lhs, const WString& Rhs );
+namespace nsCmn
+{
+    int                         wcscmp( const WString& Lhs, const WString& Rhs );
+    int                         wcsicmp( const WString& Lhs, const WString& Rhs );
 
-bool                        startWith( const std::wstring& str, const std::wstring& with );
-bool                        startWithi( const std::wstring& str, const std::wstring& with );
-bool                        endWith( const std::wstring& str, const std::wstring& with );
-bool                        endWithi( const std::wstring& str, const std::wstring& with );
+    bool                        startWith( const std::wstring& str, const std::wstring& with );
+    bool                        startWithi( const std::wstring& str, const std::wstring& with );
+    bool                        endWith( const std::wstring& str, const std::wstring& with );
+    bool                        endWithi( const std::wstring& str, const std::wstring& with );
 
-std::wstring                trim_left( const std::wstring& Str );
-std::wstring                trim_right( const std::wstring& Str );
+    std::wstring                trim_left( const std::wstring& Str );
+    std::wstring                trim_right( const std::wstring& Str );
 
-WString                     format( const wchar_t* fmt, ... );
+    WString                     format( const wchar_t* fmt, ... );
 
-WString                     convertACPToUTF16LE( const char* Buffer, int BufferSize = -1 );
-WString                     convertUTF8ToUTF16LE( const char* Buffer, int BufferSize = -1 );
+    WString                     convertACPToUTF16LE( const char* Buffer, int BufferSize = -1 );
+    WString                     convertUTF8ToUTF16LE( const char* Buffer, int BufferSize = -1 );
+
+    int                         stoi( const std::wstring& Str );
+}
 
 template< typename CHAR >
 std::basic_string<CHAR> toStrLower( const std::basic_string<CHAR>& str );

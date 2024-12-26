@@ -92,7 +92,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)UniqueLibs;$(SolutionDir)commonLibs</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)commonLibs;$(ProjectDir);$(SolutionDir)UniqueLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <LanguageStandard>stdcpp20</LanguageStandard>
@@ -110,7 +110,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)UniqueLibs;$(SolutionDir)commonLibs</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)commonLibs;$(ProjectDir);$(SolutionDir)UniqueLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
@@ -128,7 +128,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)UniqueLibs;$(SolutionDir)commonLibs</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)commonLibs;$(ProjectDir);$(SolutionDir)UniqueLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <LanguageStandard>stdcpp20</LanguageStandard>
@@ -146,7 +146,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)UniqueLibs;$(SolutionDir)commonLibs</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)commonLibs;$(ProjectDir);$(SolutionDir)UniqueLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
@@ -162,6 +162,12 @@
     <ClCompile Include="..\CommonLibs\cmnDataType_String.cpp" />
     <ClCompile Include="..\CommonLibs\cmnPath.cpp" />
     <ClCompile Include="..\CommonLibs\cmnString.cpp" />
+    <ClCompile Include="..\CommonLibs\win32\W32API_PE.cpp" />
+    <ClCompile Include="..\UniqueLibs\stbFile_Builder.cpp" />
+    <ClCompile Include="..\UniqueLibs\stbFile_Builder_Res.cpp" />
+    <ClCompile Include="..\UniqueLibs\stbFile_Builder_Res_Icon.cpp" />
+    <ClCompile Include="..\UniqueLibs\stbFile_Builder_Res_Manifest.cpp" />
+    <ClCompile Include="..\UniqueLibs\stbFile_Builder_Res_Ver.cpp" />
     <ClCompile Include="Builder.cpp" />
     <ClCompile Include="MakeAutoNS.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -176,6 +182,12 @@
     <ClInclude Include="..\CommonLibs\cmnDataType_Variant.hpp" />
     <ClInclude Include="..\CommonLibs\cmnPath.hpp" />
     <ClInclude Include="..\CommonLibs\cmnString.hpp" />
+    <ClInclude Include="..\CommonLibs\win32\W32API_PE_Defs.hpp" />
+    <ClInclude Include="..\UniqueLibs\stbFile_Builder.hpp" />
+    <ClInclude Include="..\UniqueLibs\stbFile_Builder_Res.hpp" />
+    <ClInclude Include="..\UniqueLibs\stbFile_Builder_Res_Icon.hpp" />
+    <ClInclude Include="..\UniqueLibs\stbFile_Builder_Res_Manifest.hpp" />
+    <ClInclude Include="..\UniqueLibs\stbFile_Builder_Res_Ver.hpp" />
     <ClInclude Include="..\UniqueLibs\stbFile_Defs.hpp" />
     <ClInclude Include="Builder.hpp" />
     <ClInclude Include="stdafx.h" />

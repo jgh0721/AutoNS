@@ -1,0 +1,4 @@
+﻿#ifndef __HDR_STB_BUILDER_RES_VER__
+#define __HDR_STB_BUILDER_RES_VER__
+
+#endif // __HDR_STB_BUILDER_RES_VER__

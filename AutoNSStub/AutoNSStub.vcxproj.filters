@@ -36,6 +36,12 @@
     <ClCompile Include="..\CommonLibs\cmnPath.cpp">
       <Filter>라이브러리\공통 라이브러리</Filter>
     </ClCompile>
+    <ClCompile Include="..\UniqueLibs\cmnScript.cpp">
+      <Filter>라이브러리</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\UniqueLibs\stbFile_Defs.hpp">
