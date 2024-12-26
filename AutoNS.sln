@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MakeAutoNS", "MakeAutoNS\MakeAutoNS.vcxproj", "{AF542C21-50B0-4772-9B0A-6B7ABA3CBA7F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AutoNSStub", "AutoNSStub\AutoNSStub.vcxproj", "{FDF63480-7359-4A04-8752-3405C0A6DCDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{1C9E18DE-01AF-492A-AB22-CCFB676746B7}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF542C21-50B0-4772-9B0A-6B7ABA3CBA7F}.Debug|x64.ActiveCfg = Debug|x64
+		{AF542C21-50B0-4772-9B0A-6B7ABA3CBA7F}.Debug|x64.Build.0 = Debug|x64
+		{AF542C21-50B0-4772-9B0A-6B7ABA3CBA7F}.Debug|x86.ActiveCfg = Debug|Win32
+		{AF542C21-50B0-4772-9B0A-6B7ABA3CBA7F}.Debug|x86.Build.0 = Debug|Win32
+		{AF542C21-50B0-4772-9B0A-6B7ABA3CBA7F}.Release|x64.ActiveCfg = Release|x64
+		{AF542C21-50B0-4772-9B0A-6B7ABA3CBA7F}.Release|x64.Build.0 = Release|x64
+		{AF542C21-50B0-4772-9B0A-6B7ABA3CBA7F}.Release|x86.ActiveCfg = Release|Win32
+		{AF542C21-50B0-4772-9B0A-6B7ABA3CBA7F}.Release|x86.Build.0 = Release|Win32
+		{FDF63480-7359-4A04-8752-3405C0A6DCDB}.Debug|x64.ActiveCfg = Debug|x64
+		{FDF63480-7359-4A04-8752-3405C0A6DCDB}.Debug|x64.Build.0 = Debug|x64
+		{FDF63480-7359-4A04-8752-3405C0A6DCDB}.Debug|x86.ActiveCfg = Debug|Win32
+		{FDF63480-7359-4A04-8752-3405C0A6DCDB}.Debug|x86.Build.0 = Debug|Win32
+		{FDF63480-7359-4A04-8752-3405C0A6DCDB}.Release|x64.ActiveCfg = Release|x64
+		{FDF63480-7359-4A04-8752-3405C0A6DCDB}.Release|x64.Build.0 = Release|x64
+		{FDF63480-7359-4A04-8752-3405C0A6DCDB}.Release|x86.ActiveCfg = Release|Win32
+		{FDF63480-7359-4A04-8752-3405C0A6DCDB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
